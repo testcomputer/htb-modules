@@ -1,4 +1,4 @@
-<h1> <strong> Module Summary </h1> </strong>
+<h1> <strong> Intro to Networking Module Summary </h1> </strong>
 
 This module covers core networking concepts that are fundamental for any IT professional.
 
