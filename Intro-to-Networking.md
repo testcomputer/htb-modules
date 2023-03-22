@@ -10,3 +10,6 @@ This module will cover the following topics:
    <ul> <li>  Internet communication models and concepts</ul> </li>
    <ul> <li>  The difference between the OSI model and TCP/IP</ul> </li>
    <ul> <li>  How IPv4/IPv6 addressing is done in various networks </ul> </li>
+
+
+![image](https://user-images.githubusercontent.com/104815254/227005852-25cc40ad-89d7-46fb-a582-163baec4caeb.png)
