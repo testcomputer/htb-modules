@@ -1,7 +1,6 @@
 # HackTheBox-Modules
 
 
-# My HackTheBox Profile
 
 [HackTheBox](https://www.hackthebox.eu/) is an online platform that hosts virtual machines for users to hack into and learn cybersecurity concepts.
 
