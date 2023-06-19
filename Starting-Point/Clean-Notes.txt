@@ -1,0 +1,4 @@
+Whether we are performing client assessments, playing CTFs, taking a course in Academy or elsewhere, 
+or playing HTB boxes/labs, organization is always crucial. It is essential to prioritize clear and 
+accurate documentation from the very beginning. This skill will benefit us no matter what path we take
+in information security or even other career paths.
