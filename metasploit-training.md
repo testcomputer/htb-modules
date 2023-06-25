@@ -10,3 +10,5 @@ but pattern_create and pattern_offset are tools useful in exploit development wh
 practice this format when searching msf6
 
       search type:exploit platform:windows cve:2021 rank:excellent microsoft
+
+we could specify the year (cve:<year>), the platform Windows (platform:<os>), the type of module we want to find (type:<auxiliary/exploit/post>), the reliability rank (rank:<rank>), and the search name (<pattern>). This would reduce our results to only those that match all of the above.
