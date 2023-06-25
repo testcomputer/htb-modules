@@ -6,3 +6,7 @@ but pattern_create and pattern_offset are tools useful in exploit development wh
 
 
 ![image](https://github.com/testcomputer/HackTheBox-Modules/assets/104815254/4672edd1-f286-4a04-848b-6b24c6cf5b12)
+
+practice this format when searching msf6
+
+      search type:exploit platform:windows cve:2021 rank:excellent microsoft
