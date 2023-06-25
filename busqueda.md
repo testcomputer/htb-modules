@@ -13,6 +13,4 @@ nikto -h 10.10.11.208
      (Nikto is a widely used open-source web vulnerability scanner that helps identify potential security vulnerabilities and misconfigurations in web servers)
 
 – -h: flag specifies the target hostname or IP address that Nikto will scan.
----> 
-
-show modules
+--->              show modules
