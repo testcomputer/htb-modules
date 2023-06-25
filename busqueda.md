@@ -15,3 +15,4 @@ nikto -h 10.10.11.208
 – -h: flag specifies the target hostname or IP address that Nikto will scan.
 ---> 
 
+show modules
