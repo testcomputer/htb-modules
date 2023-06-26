@@ -83,3 +83,4 @@ Others Commands (these will be listed under different menu categories in the hel
 
 
 The getuid command will display the user with which Meterpreter is currently running. This will give you an idea of your possible privilege level on the target system (e.g. Are you an admin level user like NT AUTHORITY\SYSTEM or a regular user?)
+ps command will list running processes. The PID column will also give you the PID information you will need to migrate Meterpreter to another process.
