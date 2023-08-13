@@ -1,0 +1,140 @@
+https://fares7elsadek.medium.com/hackthebox-writeup-pc-1c0178023411
+
+
+Online Hosts
+10.10.11.214
+
+Ports:
+
+Port 	Protocol 	State
+Reason 	Service 	Product 	Version 	Extra Info
+22 	tcp 	open
+syn-ack 	ssh 			
+50051 	tcp 	open
+
+10.10.11.214:22       - Scanned 1 of 1 hosts (100% complete)
+
+INFO, Interesting Ports Found, 10.10.11.214, 22 
+
+[LOW], SSH Version Disclosure, [+] 10.10.11.214:22
+
+Port 22
+SSH server version: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.7 ( service.version=8.2p1 openssh.comment=Ubuntu-4ubuntu0.7 service.vendor=OpenBSD service.family=OpenSSH service.product=OpenSSH service.cpe23=cpe:/a:openbsd:openssh:8.2p1 os.vendor=Ubuntu os.family=Linux os.product=Linux os.version=20.04 os.cpe23=cpe:/o:canonical:ubuntu_linux:20.04 service.protocol=ssh fingerprint_db=ssh.banner )
+
+Port 50051 
+Is commonly associated with the gRPC (gRPC Remote Procedure Call) framework. gRPC is an open-source framework developed by Google that enables efficient and secure communication between applications over a network, using a protocol that supports various programming languages.
+
+Port 50051 is often used as the default port for gRPC services. gRPC services can be used for various purposes, including microservices communication, inter-process communication, and more. It's commonly used in modern software architectures, particularly in environments that require efficient communication between distributed components.
+
+If you encounter a service or application running on port 50051, it's likely a gRPC service. The specific functionality provided by the service will depend on how it's implemented and what kind of application or system it's a part of.
+
+
+Certainly, let's delve into more detail about gRPC (gRPC Remote Procedure Call).
+Overview:
+
+gRPC is an open-source remote procedure call (RPC) framework developed by Google. It's designed to enable efficient and reliable communication between distributed systems and applications. gRPC uses a high-performance binary protocol for communication and supports multiple programming languages, making it a versatile choice for building modern, cross-language and cross-platform applications.
+Key Concepts and Features:
+
+    Protocol Buffers (Protobuf):
+    gRPC uses Protocol Buffers (Protobuf) as its interface definition language. Protobuf is a language-agnostic data serialization format that's more compact and efficient compared to traditional XML or JSON. It defines the structure of the messages and services that will be exchanged between client and server.
+
+    Remote Procedure Call (RPC):
+    At its core, gRPC provides a mechanism for performing remote procedure calls. This means that a client can call a method on a remote server as if it were a local function call. gRPC abstracts away many of the complexities of network communication and handles the serialization, deserialization, and transport details.
+
+    Strong Typing:
+    gRPC generates strongly typed client and server code based on the Protobuf definitions. This helps prevent errors and miscommunication between the client and server by ensuring that both sides are using the same message structures and data types.
+
+    HTTP/2 Based:
+    gRPC uses the HTTP/2 protocol as its transport layer. This brings benefits like multiplexing, header compression, and connection reuse. It allows gRPC to efficiently manage multiple requests and responses over a single connection, reducing latency and improving performance.
+
+    Support for Multiple Languages:
+    gRPC supports a wide range of programming languages, including but not limited to C++, Python, Java, Go, C#, Ruby, JavaScript, and more. This makes it easier to build applications using the languages your team is most comfortable with.
+
+    Streaming:
+    gRPC supports both unary RPCs (single request and response) and streaming RPCs, where clients and servers can send a stream of messages back and forth. This is useful for scenarios like real-time communication or transferring large data sets.
+
+    Pluggable Auth and Load Balancing:
+    gRPC supports pluggable authentication mechanisms and load balancing policies. This allows you to secure your communication and distribute client requests efficiently among multiple server instances.
+
+Use Cases:
+
+    Microservices Communication: gRPC is commonly used in microservices architectures where services need to communicate with each other efficiently. Its performance benefits and language-agnostic approach make it well-suited for this scenario.
+
+    Cross-Platform Communication: gRPC is an excellent choice when you need to build applications that run on different platforms and communicate seamlessly. For instance, you could have a mobile app written in Swift communicating with a backend service written in Go.
+
+    Real-Time Applications: The streaming capabilities of gRPC make it suitable for real-time applications like chat systems, live data updates, and online gaming.
+
+    APIs and Services: gRPC is used to define APIs and services that can be consumed by clients in various languages. This is particularly useful for building distributed systems that require high performance and scalability.
+
+Summary:
+
+gRPC is a powerful framework for building efficient and reliable communication between distributed systems. Its use of Protocol Buffers, HTTP/2, and support for multiple languages makes it a versatile choice for modern application development, especially in scenarios involving microservices, cross-platform communication, real-time applications, and API design.
+
+gRPC (Google Remote Procedure Call) is an open-source, high-performance framework developed by Google that allows communication between client and server applications. It is designed to facilitate efficient and reliable data exchange between distributed systems and is commonly used in microservices architectures.
+
+API Software. Utilize Postman
+
+
+Vulnerabilities Scanned
+
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, 10213DBE-F683-58BB-B6D3-353173626207 6.8 https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3 6.8 https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2016-20012 4.3 https://vulners.com/cve/CVE-2016-20012
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2020-12062 5.0 https://vulners.com/cve/CVE-2020-12062
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2020-14145 4.3 https://vulners.com/cve/CVE-2020-14145
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2020-15778 6.8 https://vulners.com/cve/CVE-2020-15778
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2021-28041 4.6 https://vulners.com/cve/CVE-2021-28041
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2021-36368 2.6 https://vulners.com/cve/CVE-2021-36368
+P3 - MEDIUM, Components with Known Vulnerabilities - NMap, 10.10.11.214, CVE-2021-41617 4.4 https://vulners.com/cve/CVE-2021-41617
+
+
+-bash-5.0$ find / -perm /4000 2>/dev/null *COMMAND
+/snap/snapd/17950/usr/lib/snapd/snap-confine
+/snap/core20/1778/usr/bin/chfn
+/snap/core20/1778/usr/bin/chsh
+/snap/core20/1778/usr/bin/gpasswd
+/snap/core20/1778/usr/bin/mount
+/snap/core20/1778/usr/bin/newgrp
+/snap/core20/1778/usr/bin/passwd
+/snap/core20/1778/usr/bin/su
+/snap/core20/1778/usr/bin/sudo
+/snap/core20/1778/usr/bin/umount
+/snap/core20/1778/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1778/usr/lib/openssh/ssh-keysign
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/openssh/ssh-keysign
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/snapd/snap-confine
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/bin/at
+/usr/bin/su
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/fusermount
+/usr/bin/newgrp
+/usr/bin/bash
+/usr/bin/mount
+/usr/bin/chsh
+/usr/bin/sudo
+/usr/bin/umount
+/usr/bin/gpasswd
+
+
+-bash-5.0$ netstat -tulpn *COMMAND
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:8000          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:9666            0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 :::50051                :::*                    LISTEN      -                   
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -                   
+
+
+
+
+
