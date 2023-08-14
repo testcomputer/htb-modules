@@ -23,3 +23,6 @@ Your decision on which version of Meterpreter to use will be mostly based on thr
     The target operating system (Is the target operating system Linux or Windows? Is it a Mac device? Is it an Android phone? etc.)
     Components available on the target system (Is Python installed? Is this a PHP website? etc.)
     Network connection types you can have with the target system (Do they allow raw TCP connections? Can you only have an HTTPS reverse connection? Are IPv6 addresses not as closely monitored as IPv4 addresses? etc.) 
+
+
+run the scan ^
